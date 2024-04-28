@@ -17,3 +17,6 @@ print(elements)
 r: slice = slice(None, None, -1)
 
 print(elements[r])
+
+n: int = 1000000000
+print(f'{n:_}')
